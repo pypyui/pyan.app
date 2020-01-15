@@ -1,7 +1,7 @@
 @import 'framework.css';
 /* 1. Styles */
 body {
-  font-family: ABeeZee;
+  font-family: ABeeZee, Helvetica;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-margin-after: 0;
   margin: 0;
   font-weight: 700;
-  font-family: ABeeZee;
+  font-family: ABeeZee, Helvetica;
 }
 
 h1, h2 {
