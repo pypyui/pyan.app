@@ -10,7 +10,7 @@ if (!empty($_POST))
 		// email field "From" - name of sender (e.g. your first & last name)
 		$from_name = "John Jonson";
 		// email field "From" - email of sender (e.g. "robot@domain.com")
-		$from_email = "robot@domain.com";
+		$from_email = "nagios.pigeon@gmail.com";
 		// Email to receive message - PUT YOUR EMAIL HERE
 		$to = "my@email.com";
 		// MailChimp integration: Your API key
