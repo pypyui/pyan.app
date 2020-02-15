@@ -1,11 +1,30 @@
 @import 'framework.css';
-/* 1. Styles */
+/* THIS IS A FREE VERSION OF STARTUP 3! */
+/* 
+	Table of contents:
+	1. Common styles
+	2. Common responsive styles
+	3. Headers
+	4. Navigations
+	5. Contents
+	6. Testimonials
+	7. Features
+	8. Forms
+	9. Call to Actions
+	10. Teams
+	11. Pricing Tables
+	12. Contacts
+	13. Showcases
+	14. Footers
+	15. Ecommerce
+*/
+/* 1. Common styles */
 body {
-  font-family: ABeeZee, Helvetica;
+  font-family: Anonymous Pro;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #949BA0;
+  color: #1E0E62;
   -webkit-font-smoothing: antialiased;
 }
 body.dev {
@@ -59,7 +78,7 @@ input, textarea {
   border: 0;
   outline: none;
   background: transparent;
-  color: #949BA0;
+  color: #1E0E62;
   resize: none;
 }
 
@@ -73,8 +92,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   margin: 0;
-  font-weight: 700;
-  font-family: ABeeZee, Helvetica;
+  font-weight: 400;
+  font-family: Nunito;
 }
 
 h1, h2 {
@@ -88,7 +107,7 @@ h1.big, h2.big {
 h1.small, h2.small {
   font-size: 42px;
   line-height: 52px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h3 {
@@ -227,7 +246,7 @@ b, strong {
 }
 .slick-dots li button {
   box-sizing: border-box;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-radius: 50%;
   background: transparent;
   display: block;
@@ -246,7 +265,7 @@ b, strong {
   opacity: 0.8;
 }
 .slick-dots li.slick-active button {
-  background: #FFFFFF;
+  background: #ffffff;
   opacity: 1;
 }
 .slick-dots li.slick-active button:hover {
@@ -276,18 +295,18 @@ b, strong {
 }
 
 ::-moz-selection {
-  background: #7121F4;
-  color: #FFFFFF;
+  background: #E93A7D;
+  color: #ffffff;
 }
 
 ::-webkit-selection {
-  background: #7121F4;
-  color: #FFFFFF;
+  background: #E93A7D;
+  color: #ffffff;
 }
 
 ::selection {
-  background: #7121F4;
-  color: #FFFFFF;
+  background: #E93A7D;
+  color: #ffffff;
 }
 
 /* 2. Common responsive styles */
@@ -598,7 +617,7 @@ b, strong {
 }
 
 .call_to_action_2 .inner {
-  border: 2px solid #E7EAED;
+  border: 2px solid #EBEAED;
 }
 @media (max-width: 991.98px) {
   .call_to_action_2 .inner {
@@ -613,30 +632,30 @@ b, strong {
 
 /* 10. Teams */
 .team_1 .block {
-  border: 2px solid #E7EAED;
+  border: 2px solid #EBEAED;
 }
 .team_1 .block_socials {
-  border-top: 2px solid #E7EAED;
+  border-top: 2px solid #EBEAED;
 }
 .team_1 .block_socials .border_right {
-  border-right: 2px solid #E7EAED;
+  border-right: 2px solid #EBEAED;
 }
 
 .team_2 .bordered {
-  border-left: 2px solid #E7EAED;
-  border-right: 2px solid #E7EAED;
+  border-left: 2px solid #EBEAED;
+  border-right: 2px solid #EBEAED;
 }
 @media (max-width: 767.98px) {
   .team_2 .bordered {
     border: none;
-    border-top: 2px solid #E7EAED;
-    border-bottom: 2px solid #E7EAED;
+    border-top: 2px solid #EBEAED;
+    border-bottom: 2px solid #EBEAED;
   }
 }
 
 /* 11. Pricing Tables */
 .pricing_table_1 .block {
-  border: 2px solid #E7EAED;
+  border: 2px solid #EBEAED;
   border-bottom-left-radius: 10px;
 }
 .pricing_table_1 .block.noborder_right {
@@ -644,7 +663,7 @@ b, strong {
 }
 .pricing_table_1 .item {
   padding: 16px 0 14px 0;
-  border-top: 2px solid #E7EAED;
+  border-top: 2px solid #EBEAED;
 }
 .pricing_table_1 .price span.absolute {
   top: 5px;
@@ -660,7 +679,7 @@ b, strong {
     border-radius: 10px;
   }
   .pricing_table_1 .block.noborder_right {
-    border-right: 2px solid #E7EAED;
+    border-right: 2px solid #EBEAED;
   }
 }
 
@@ -728,7 +747,7 @@ b, strong {
 }
 
 .ecommerce_2 .product {
-  border: 2px solid #E7EAED;
+  border: 2px solid #EBEAED;
 }
 .ecommerce_2 .product.big {
   min-height: calc(100% - 30px);
@@ -749,7 +768,7 @@ b, strong {
   width: 4px;
   height: 4px;
   border-radius: 100%;
-  background: #1E3060;
+  background: #919DAB;
 }
 @media (max-width: 575.98px) {
   .ecommerce_2 .product {
