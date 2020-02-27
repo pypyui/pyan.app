@@ -198,11 +198,11 @@
   background-color: #1eae9e;
 }
 .btn.action-2 {
-  background-color: #482BE7;
-  color: #ffffff;
+  background-color: ##8a473e;
+  color: #8a473e;
 }
 .btn.action-2:hover {
-  background-color: #3217c8;
+  background-color: ##ffffff;
 }
 .btn.action-3 {
   background-color: #E93A7D;
@@ -12292,10 +12292,10 @@ input[type=radio] + label:before {
 }
 
 .color-main {
-  color: #1E0E62;
+  color: #8a473e;
 }
 .color-main.link:hover {
-  color: #391bbb;
+  color: #b86b61;
 }
 
 .color-heading {
@@ -12356,7 +12356,7 @@ input[type=radio] + label:before {
 
 /* background-colors */
 .bg-light {
-  background-color: #ffffff !important;
+  background-color: #253133 !important;
 }
 .bg-dark {
   background-color: #2F1893 !important;
@@ -12398,7 +12398,7 @@ input[type=radio] + label:before {
   z-index: 0;
 }
 
-/* 
+/*
 picture[class^="color-filter-"], picture[class*=" color-filter-"]{
 	display:inline-block;
 	overflow:hidden;
