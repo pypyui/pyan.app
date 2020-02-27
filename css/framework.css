@@ -11671,7 +11671,7 @@ input[type=radio] + label:before {
 }
 
 .f-18 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -12299,7 +12299,7 @@ input[type=radio] + label:before {
 }
 
 .color-heading {
-  color: #8a473e;
+  color: #f3ede9;
 }
 .color-heading.link:hover {
   color: #5d6a79;
